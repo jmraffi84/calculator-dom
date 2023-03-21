@@ -1,0 +1,33 @@
+.grid-box{
+    display: grid;
+    box-sizing:border-box;
+    box-shadow: 5px 5px 15px 2px #ddd;;
+    margin: 0 auto;
+    width: 50%;
+    height: 100vh;
+}
+.grid-info-col{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 50px;
+    font-family:monospace;
+    background-color: rgb(55, 54, 54);
+    color: #c5d6dc;
+}
+.grid-info-col .display{
+    text-align: right;
+    margin-right: 10px;
+    flex: 1;
+}
+.grid-col{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   margin-bottom: 5px;
+    
+}
+.grid-col button{
+    font-size: 50px;
+    color: rgb(216, 230, 232);
+    background-color: black;
+}
